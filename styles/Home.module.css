@@ -123,4 +123,8 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .content {
+    width: 100%;
+  }
 }
