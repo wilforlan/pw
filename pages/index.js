@@ -10,13 +10,13 @@ export default function Home() {
         
         {/* <!-- HTML Meta Tags --> */}
         <title>Williams Isaac's Site</title>
-        <meta name="description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
+        <meta name="description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of professional experience across many industries." />
 
         {/* <!-- Facebook Meta Tags --> */}
         <meta property="og:url" content="https://www.williamsisaac.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Williams Isaac's Site" />
-        <meta property="og:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
+        <meta property="og:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of professional experience across many industries." />
         <meta property="og:image" content="https://www.williamsisaac.com/williams.PNG" />
 
         {/* <!-- Twitter Meta Tags --> */}
@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="twitter:domain" content="williamsisaac.com" />
         <meta property="twitter:url" content="https://www.williamsisaac.com/" />
         <meta name="twitter:title" content="Williams Isaac's Site" />
-        <meta name="twitter:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
+        <meta name="twitter:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of professional experience across many industries." />
         <meta name="twitter:image" content="https://www.williamsisaac.com/williams.PNG" />
       
       </Head>
