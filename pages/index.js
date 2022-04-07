@@ -18,17 +18,17 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          and it's nice to have you here.{' '}
+          {"and it's nice to have you here."}
         </p>
 
         <div className={styles.content}>
           <p className={styles.body}>
-            I currently work as a {' '}
+            I currently work as a 
             <code className={styles.code}>research tech lead @fireflies.ai</code> while I hack around a few other interesting side projects in my free time.
           </p>
 
           <p className={styles.body}>
-            If you'd like to know more about me, I have consolidated a few details on my notion; you can click on "About" to see it &amp; feel free to reach out to me on LinkedIn or request for my email address.
+            {"If you'd like to know more about me, I have consolidated a few details on my notion; you can click on 'About' to see it &amp; feel free to reach out to me on LinkedIn or request for my email address."}
           </p>
         </div>
 
