@@ -7,8 +7,14 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Williams Isaac [dot] com</title>
-        <meta name="description" content="Williams Isaac [dot] com - personal website, blogs, news" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta property="og:title" content="Williams Isaac's Site" />
+        <meta property="og:url" content="https://williamsisaac.com/" />
+        <meta property="og:image" content="https://www.williamsisaac.com/williams.PNG" />
+        <meta property="og:image:width" content="100" />
+        <meta property="og:image:height" content="100" />
+        <meta property="og:image:alt" content="An Avatar of Williams. :)" />
+        <meta name="og:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
+        <link rel="icon" href="https://www.williamsisaac.com/williams.PNG" />
       </Head>
 
       <main className={styles.main}>
