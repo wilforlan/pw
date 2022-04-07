@@ -7,14 +7,26 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Williams Isaac [dot] com</title>
+        
+        {/* <!-- HTML Meta Tags --> */}
+        <title>Williams Isaac's Site</title>
+        <meta name="description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
+
+        {/* <!-- Facebook Meta Tags --> */}
+        <meta property="og:url" content="https://www.williamsisaac.com/" />
+        <meta property="og:type" content="website" />
         <meta property="og:title" content="Williams Isaac's Site" />
-        <meta property="og:url" content="https://williamsisaac.com/" />
+        <meta property="og:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
         <meta property="og:image" content="https://www.williamsisaac.com/williams.PNG" />
-        <meta property="og:image:width" content="100" />
-        <meta property="og:image:height" content="100" />
-        <meta property="og:image:alt" content="An Avatar of Williams. :)" />
-        <meta name="og:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
-        <link rel="icon" href="https://www.williamsisaac.com/williams.PNG" />
+
+        {/* <!-- Twitter Meta Tags --> */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="williamsisaac.com" />
+        <meta property="twitter:url" content="https://www.williamsisaac.com/" />
+        <meta name="twitter:title" content="Williams Isaac's Site" />
+        <meta name="twitter:description" content="Hi, I am Williams, tech lead @fireflies.ai with 8years of experience across many industries." />
+        <meta name="twitter:image" content="https://www.williamsisaac.com/williams.PNG" />
+      
       </Head>
 
       <main className={styles.main}>
