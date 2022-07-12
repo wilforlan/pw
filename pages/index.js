@@ -32,7 +32,7 @@ export default function Home() {
       <main className={styles.main}>
         <Image src="/williams.PNG" alt="Williams Avatar" width={100} height={100} />
         <h1 className={styles.title}>
-          Hi, I am <a href="https://williamsisaac.notion.site/">Williams,</a>
+          Hi, I am <a href="https://williamsisaac.notion.site/">Isaac,</a>
         </h1>
 
         <p className={styles.description}>
