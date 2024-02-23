@@ -139,7 +139,7 @@ function Resume() {
   let resume = [
     {
       company: 'Fuddle.ai',
-      title: 'Founder & CTO',
+      title: 'Founder',
       logo: logoPlanetaria,
       start: '2022',
       end: {
@@ -270,15 +270,14 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software engineer, founder, and amateur drummer.
+            A software engineer, and a Founder.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           I’m Williams, a software engineer with 9+ hard-core years of experience and entrepreneur based in Lagos, Nigeria but working with people from over the world. I've been in 4 countries and 23 others in my mind. 
           I’m the founder of Fuddle.ai, where I am building an AI Nutritionist to help change how humans think about food and eat.
           <br /><br />
-          It happened that I am the First Engineer at Fireflies.ai, where we develop an AI Meeting Assistant that is helping to revolutionize the how humans work and do meetings.
-          <br /><br />
-          I also lead the research team at Fireflies.ai which is an incredibly tasking job but I love it.
+          It happened that I am the First Engineer at Fireflies.ai, where I'm leading Research and Development efforts and building it's AI Meeting Assistant that is helping to revolutionize the how humans work and do meetings.
+          <br />
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
