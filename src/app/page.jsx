@@ -114,7 +114,7 @@ function Newsletter() {
         <span className="ml-3">Stay up to date</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Get notified when I publish something new, and unsubscribe at any time.
+        Get notified when I publish something new, you can unsubscribe at any time.
       </p>
       <div className="mt-6 flex">
         {/* <input
@@ -148,7 +148,7 @@ function Resume() {
     },
     {
       company: 'Fireflies.ai',
-      title: 'Technical Research Lead',
+      title: 'Tech Lead',
       logo: logoAirbnb,
       start: '2018',
       end: {
@@ -269,13 +269,12 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            It's nice to have you here.
+            Ah, you found me.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I’m Williams, a software engineer with 9+ hard-core years of experience and entrepreneur based in Africa. I'm quite a traveller and 
-          At the wee hours, you'll find me building Fuddle.ai, an AI Nutritionist to help change how humans think about food and eat.
+          I’m Isaac Williams, a software engineer and entrepreneur with 10+ years of experience. I enjoy building products that help make people's lives better.
           <br /><br />
-          I currently lead Research & Development Efforts, building it's AI Meeting Assistant that is helping to revolutionize how humans work, do and use meetings.
+          I've built products that help people make better decisions, save time, and improve their productivity; and I hope I can help you too.
           <br />
           </p>
           <div className="mt-6 flex gap-6">
