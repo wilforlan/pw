@@ -125,10 +125,9 @@ function MobileNavigation(props) {
             <nav className="mt-6">
               <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
                 <MobileNavItem href="/about">About</MobileNavItem>
-                {/* <MobileNavItem href="/articles">Articles</MobileNavItem>
-                <MobileNavItem href="/projects">Projects</MobileNavItem>
-                <MobileNavItem href="/speaking">Speaking</MobileNavItem> */}
                 <MobileNavItem href="/uses">Technology Tools I Use</MobileNavItem>
+                <MobileNavItem href="/about#work">Work History</MobileNavItem>
+                <MobileNavItem href="/about#gallery">Gallery & More</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -170,6 +169,8 @@ function DesktopNavigation(props) {
         <NavItem href="/projects">Projects</NavItem>
         <NavItem href="/speaking">Speaking</NavItem> */}
         <NavItem href="/uses">Technology Tools I Use</NavItem>
+        <NavItem href="/about#work">Work History</NavItem>
+        <NavItem href="/about#gallery">Gallery & More</NavItem>
       </ul>
     </nav>
   )
@@ -402,11 +403,11 @@ export function Header() {
                 <MobileNavigation className="pointer-events-auto md:hidden" />
                 <DesktopNavigation className="pointer-events-auto hidden md:block" />
               </div>
-              <div className="flex justify-end md:flex-1">
+              {/* <div className="flex justify-end md:flex-1">
                 <div className="pointer-events-auto">
                   <ThemeToggle />
                 </div>
-              </div>
+              </div> */}
             </div>
           </Container>
         </div>
